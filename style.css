@@ -1,4 +1,6 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+﻿*{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .navbar{
     background: linear-gradient(to right, #b042ff, #00FFFF);
@@ -11,46 +13,6 @@ header{
     padding-top: 8rem;
     padding-bottom: 8rem;
     height: 400px;
+    margin-bottom: 100px;
+    
 }
-
-header h1{
-    font-weight: bold;
-}
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.main{
-    width: 360px;
-    margin: 2rem auto;
-    height: 560px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 50px;
-    overflow: hidden;
-}
-.img{
-    height: 250px;
-    background: purple;
-}
-.content{
-    text-align: center;
-    border-bottom: 2px solid#e5e5e5;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
-}
-.footer{
-    display: flex;
-    justify-content: space-between;
-    background: plum;
-    align-items: center;
-    height: 60px;
-}
-.ft-l{
-    display: flex;
-}
- */
