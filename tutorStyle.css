@@ -10,10 +10,15 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
     overflow: hidden;
+    
 }
 .img{
     height: 250px;
     background: purple;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
 }
 .content{
     text-align: center;
@@ -24,6 +29,16 @@
     align-items: center;
     flex-direction: column;
     padding: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+.content h3{
+    border-bottom: 1px solid #e5e5e5;
+}
+.content h1{
+    margin: 1rem 0;
+}
+.content p{
+    color: #919191;
 }
 .footer{
     display: flex;
@@ -34,4 +49,12 @@
 }
 .ft-l{
     display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.ft-l p{
+    margin-left: .5rem;
+}
+.ft-r{
+    padding-right: 2rem;
 }
